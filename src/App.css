@@ -25,7 +25,7 @@ gap: 4rem;
 
 }
 .links a{
-  font-family: 'Poppins';
+  
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -39,9 +39,10 @@ gap: 4rem;
 
 .links a:hover{
   color:#E07335;
+  text-decoration: none;
 }
 .logo{
-  font-family: 'Poppins';
+  
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -101,7 +102,7 @@ color: #E07335;
 
 }
 .secondhead{
-  font-family: 'Poppins';
+  
 font-style: normal;
 font-weight: 600;
 font-size: 45px;
@@ -113,15 +114,18 @@ text-align: center;
 color: #FFFFFF;
 }
 .secondpara{
-  font-family: 'Poppins';
+ 
 font-style: normal;
 font-weight: 400;
-font-size: 25px;
+font-size: 20px;
 line-height: 24px;
 width:75%;
 color: #FFFFFF;
 margin: 0 auto;
 text-align: center;
+}
+.getpara{
+  color:white
 }
 .imge{
   text-align: center;
@@ -197,7 +201,7 @@ border: 1px solid #FFFFFF;
   height: 360px;
 }
 .thirdhead{
-  font-family: 'Poppins';
+ 
 font-style: normal;
 font-weight: 600;
 font-size: 45px;
@@ -208,10 +212,10 @@ line-height: 68px;
 color: #FFFFFF;
 }
 .thirdpara{
-  font-family: 'Poppins';
+
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 13px;
 line-height: 24px;
 
 color: #FFFFFF;
@@ -219,7 +223,7 @@ color: #FFFFFF;
 .btnthird{
   box-sizing: border-box;
 
-
+cursor: pointer;
 width: 150px;
 height: 44px;
 color:white;
@@ -228,6 +232,11 @@ border: 1px solid #E07335;
 border-radius: 40px;
 margin-top: 20px;
 }
+.btnthird:hover{
+  background-color:white ;
+  border:none;
+  color:#E07335
+}
 .fourthsection{
   background-color: #BFB279; 
   text-align: center;
@@ -235,7 +244,7 @@ margin-top: 20px;
   padding: 1rem;
 }
 .fourhead{
-  font-family: 'Poppins';
+
 font-style: normal;
 font-weight: 600;
 font-size: 45px;
@@ -243,7 +252,7 @@ line-height: 68px;
 color:black 
 }
 .fourpara{
-  font-family: 'Poppins';
+
 font-style: normal;
 
 font-size: 18px;
@@ -284,7 +293,7 @@ text-align: center;
   
 }
 .ctahead{
-  font-family: 'Poppins';
+
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -416,7 +425,7 @@ text-align: center;
     text-align: justify;
    }
    .heading{
-    padding-top: 6rem;
+    padding-top: 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;

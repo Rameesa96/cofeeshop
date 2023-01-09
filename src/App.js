@@ -14,6 +14,7 @@ import image from './assets/pngwing 2.png'
 import axios from 'axios'
 import Swiper from './Components/Swiper';
 import Swipers from './Components/Swiper';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Footer from './Components/Footer';
 function App() {
   const[type,setType]=useState('hot')
@@ -50,7 +51,7 @@ axios.get('https://api.sampleapis.com/coffee/hot').then(response=>{
         <div className='heading'>
           <h1 className='head'>We'd  <FavoriteIcon sx={{color:'white',fontSize:'55px'}}/>  <br></br>to make you <strong className='coffee'>Coffee</strong></h1>
        <p className='p'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-       <button className='button'>Buy Now</button>
+       <button className='button'>Buy Now <ArrowForwardIcon sx={{marginLeft:"20px",color:"black"}}/></button>
         </div>
         </div>
       </div>
@@ -190,7 +191,7 @@ axios.get('https://api.sampleapis.com/coffee/hot').then(response=>{
      <p className='thirdpara'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
       </p>
-      <button className='btnthird'>Read More</button>
+      <button className='btnthird'>Read More<ArrowForwardIcon sx={{marginLeft:"20px",color:"#E07335"}}/></button>
 
       </div>
      </div>
@@ -207,7 +208,7 @@ axios.get('https://api.sampleapis.com/coffee/hot').then(response=>{
 
     <div className='hireme' >
 <h1 className='hirerami'>Get In Touch</h1>
-<p className='thirdpara' sx={{color:"whitw"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+<p  className='getpara'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
   <p className='ctahead'>+919847654595</p>
  
   <button className='buttonhirerami'>Contact us</button></div>
