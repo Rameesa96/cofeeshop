@@ -1,0 +1,54 @@
+.certificates{
+    background:var(--color-bg-variant);
+    
+    border-radius: 1rem;
+}
+.articleimg{
+    padding: 2rem;
+    text-align: center;
+}
+.swipertext{
+    text-align: center;
+}
+.certificateimage{
+    width:220px;
+    height: 220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+.certificatecontainer{
+    width:60%;
+    padding-bottom: 4rem;
+}
+.swiperpara{
+    font-family: 'Poppins';
+    font-size: 25px;
+    color:black;
+    font-weight: inherit;
+    font-style: inherit;
+}
+.swiperhead{
+    font-size: 20px; 
+    font-weight: 700;
+    color:black;
+}
+@media screen and (max-width:1024px){
+    .certificatecontainer{
+    width: 60%;
+
+    }
+    .articleimg{
+        padding: 1.5rem;
+    }
+}
+@media screen and (max-width:600px){
+    .certificatecontainer{
+    width: var(--container-width-ms)
+
+    }
+    .articleimg{
+        padding: 1rem;
+    }
+}
