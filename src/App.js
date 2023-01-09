@@ -33,11 +33,11 @@ axios.get('https://api.sampleapis.com/coffee/hot').then(response=>{
     <div className="App">
       <div className="firstsection">
       <header className="App-header">
-      <div className="logo">hello</div>
+      <div className="logo">Logo</div>
       <div className="links">
-        <a>home</a>
-        <a>about</a>
-        <a>contact</a>
+        <a href="#">home</a>
+        <a href="#story">about</a>
+        <a href="#contact">contact</a>
       </div>
       <div className='right'>
         <ShoppingCartIcon sx={{color:'white'}}/>
@@ -59,7 +59,7 @@ axios.get('https://api.sampleapis.com/coffee/hot').then(response=>{
 
      {/* second section */}
 
-     <div className='secondsection'>
+     <div className='secondsection' id="menu">
      <h1 className='secondhead'>Our Menu</h1>
      <p className='secondpara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua elabefug</p>
      <div className='btndiv'>
@@ -179,7 +179,7 @@ axios.get('https://api.sampleapis.com/coffee/hot').then(response=>{
 
 
      {/* third section */}
-     <div className='thirdsection'>
+     <div className='thirdsection' id="story">
       <div className='border'>
         <div className='box'>
       <img src={story} className='imgthird' alt="" />
@@ -203,9 +203,9 @@ axios.get('https://api.sampleapis.com/coffee/hot').then(response=>{
       <p className='fourpara'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
       <Swipers/>
      </div>
-     <div id="cta" className="cta">
+     <div  className="cta" id="contact">
 
-    <div className='hireme'>
+    <div className='hireme' >
 <h1 className='hirerami'>Get In Touch</h1>
 <p className='thirdpara' sx={{color:"whitw"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
   <p className='ctahead'>+919847654595</p>

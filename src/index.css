@@ -21,3 +21,6 @@ code {
   list-style: none;
   text-decoration: none;
 }
+a:hover{
+  color:white
+}
